@@ -132,3 +132,57 @@ var joinedString = arr.join('');
 document.write(joinedString + "<br>");
 
 // Question 13
+
+
+var devices = ["keyboard", "mouse", "printer", "monitor"]
+
+document.write("<h1>(FIFO-First In First Out)</h1>")
+var out = devices.shift()
+document.write("<h2>Out</h2>")
+document.write(out)
+var out = devices.shift()
+document.write("<h2>Out</h2>")
+document.write(out)
+var out = devices.shift()
+document.write("<h2>Out</h2>")
+document.write(out)
+var out = devices.shift()
+document.write("<h2>Out</h2>")
+document.write(out)
+
+// Question 14
+
+var devicess = ["keyboard", "mouse", "printer", "monitor"]
+
+document.write("<h1>(Last In-First Out)</h1>")
+var out = devicess.pop()
+document.write("<h2>Out</h2>")
+document.write(out)
+var out = devicess.pop()
+document.write("<h2>Out</h2>")
+document.write(out)
+var out = devicess.pop()
+document.write("<h2>Out</h2>")
+document.write(out)
+var out = devicess.pop()
+document.write("<h2>Out</h2>")
+document.write(out)
+
+// Question 15
+
+var manufactures = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"]
+
+document.write("<h1>(Dropdown)</h1>")
+
+document.write('<select>');
+
+document.write('<option value = " ' + manufactures[0] + '">' + manufactures[0] + '</option>');
+document.write('<option value = " ' + manufactures[1] + '">' + manufactures[1] + '</option>');
+document.write('<option value = " ' + manufactures[2] + '">' + manufactures[2] + '</option>');
+document.write('<option value = " ' + manufactures[3] + '">' + manufactures[3] + '</option>');
+document.write('<option value = " ' + manufactures[4] + '">' + manufactures[4] + '</option>');
+document.write('<option value = " ' + manufactures[5] + '">' + manufactures[5] + '</option>');
+
+document.write('</select>');
+
+document.write('<br>' + '<br>'+ '<br>');
